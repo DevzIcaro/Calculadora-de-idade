@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!--Link CSS-->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="calculadora">
+  <div class="container">
+    <div class="input-flex">
+      <div class="input-container">
+        <span>DIA</span>
+        <input type="number" id="dia">
+        <small class="error-day"></small>
+      </div>
+      <div class="input-container">
+        <span>MES</span>
+        <input type="number" id="mes">
+        <small class="error-month"></small>
+      </div>
+      <div class="input-container">
+        <span>ANO</span>
+        <input type="number" id="ano">
+        <small class="error-year"></small>
+      </div>
+    </div>
+  </div>
+  <div class="container-button">
+    <button class="submit-btn">
+      <img src="down-arrow.png" alt="botao calculadora">
+    </button>
+  </div>
+  <div class="output">
+    <h1><span class="output-ano">--</span>ANOS</h1>
+    <h1><span class="output-mes">--</span>MESES</h1>
+    <h1><span class="output-dia">--</span>DIAS</h1>
+  </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ícaro Carneiro</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
